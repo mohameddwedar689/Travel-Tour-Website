@@ -19,6 +19,14 @@ This project is divided into two main parts, frontend and backend.
 
 **Project Management**: Agile Methodology
 
+## Main Features
 
+- responsive header with toggle menu effect using vanilla JavaScript.
+- responsive home section with touch slider using swiper.js.
+- responsive about section using flexbox.
+- responsive reviews section  with touch slider using swiper.js.
+- responsive packages section using grid.
+- responsive booking form section with PHP and MySQL.
+- responsive footer section using grid.
 
   
