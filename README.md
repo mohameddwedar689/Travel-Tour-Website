@@ -29,4 +29,11 @@ This project is divided into two main parts, frontend and backend.
 - responsive booking form section with PHP and MySQL.
 - responsive footer section using grid.
 
-  
+
+## User Stories
+
+- As a User, I want to navigate the site in a simple and easy way without complication and understand how to deal with the site.
+- As a User, I want to browse services section to choose the right tour for me.
+- As a User, I want to browse packages section to choose the right one and I have the ability to choose between offers.
+- As a User, I want to review the previous opinions of previous customers who made an existing trips.
+- As a User, I want to make a simple booking operations so I can determine the day of arrival and the day of return, and set the destination too.  
