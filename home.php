@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,3 +22,6 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
+
+?>
