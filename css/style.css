@@ -70,6 +70,38 @@ section {
     color: var(--black);
     display: none;
 }
+
+/*--- Start Footer Section ---*/
+.footer {
+    background: url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(25rem , 1fr));
+    gap: 3rem;
+}
+.footer .box-container .box h3 {
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.footer .box-container .box a {
+    color: var(--light-white);
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+.footer .box-container .box a i {
+    color: var(--main-color);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+/*--- End Footer Section ---*/
 /*--- Media Queries ---*/
 @media (max-width: 1200px) {
     section {
