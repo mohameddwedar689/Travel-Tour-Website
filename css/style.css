@@ -21,6 +21,12 @@
     text-decoration: none;
     text-transform: capitalize;
 }
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
 html {
     font-size: 61.5%;
     overflow-x: hidden;
@@ -43,6 +49,18 @@ section {
     font-size: 6rem;
     text-transform: uppercase;
     color: var(--black);
+}
+.btn {
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--main-color);
 }
 /*--- Start Header Section ---*/
 .header {
@@ -77,6 +95,71 @@ section {
     color: var(--black);
     display: none;
 }
+/*--- Start Home Section ---*/
+.home {
+    padding: 0;
+}
+.home .slide {
+    background-repeat: no-repeat;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
+.home .slide .content {
+    width: 85rem;
+    text-align: center;
+    display: none;
+}
+.home .swiper-slide-active .content{
+    display: inline-block;
+}
+.home .slide .content span {
+    color: var(--light-white);
+    font-size: 2.2rem;
+    display: block;
+    padding-bottom: 1rem;
+    animation:fadeIn .2s linear backwards .2s;
+}
+.home .slide .content h3 {
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
+    animation:fadeIn .2s linear backwards .4s;
+}
+.home .slide .content .btn {
+    animation:fadeIn .2s linear backwards .6s;
+}
+.home .swiper-button-next,
+.home .swiper-button-prev {
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    height: 7rem;
+    width: 7rem;
+    background: var(--white);
+    color: var(--black);
+}
+.home .swiper-button-prev {
+    right: 7rem;
+}
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after {
+    font-size: 2rem;
+}
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover {
+    background: var(--main-color);
+    color: var(--white);
+} 
+/*--- End Home Section ---*/
 /*--- Start Services Section ---*/
 .services .box-container {
     display: grid;
@@ -145,6 +228,9 @@ section {
     }
     section {
         padding: 3rem 2rem;
+    }
+    .home .slide .content h3 {
+        font-size: 10vw;
     }
 }
 @media (max-width: 768px) {
