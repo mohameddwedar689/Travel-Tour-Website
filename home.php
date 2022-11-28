@@ -99,6 +99,21 @@
         </div>
     </section>
     <!-- Services Section End -->
+    <!-- Home -> About Section Start -->
+    <section class="home-about">
+        <div class="image">
+            <img src="images/aboutUs.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ipsa, quasi hic, repudiandae eveniet enim at mollitia minus nulla quibusdam rem ullam. Eveniet amet corrupti expedita? Porro eum modi beatae!</p>
+            <a href="about.php" class="btn">read more</a>
+        </div>
+    </section>
+    <!-- Home -> About Section End-->
+    <!---->
+    <!-- Footer Section start -->
     <section class="footer">
         <div class="box-container">
             <div class="box">

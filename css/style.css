@@ -160,6 +160,34 @@ section {
     color: var(--white);
 } 
 /*--- End Home Section ---*/
+/*--- Start Home -> About Section ---*/
+.home-about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-about .image {
+    flex: 1 1 41rem;
+}
+.home-about .image img {
+    width: 100%;
+}
+.home-about .content {
+    flex: 1 1 41rem;
+    padding: 3rem;
+    background: var(--light-bg);
+}
+.home-about .content h3 {
+    font-size: 3rem;
+    color: var(--black);
+}
+.home-about .content p {
+    font-size: 1.5rem;
+    color: var(--black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+/*--- End Home -> About Section ---*/
 /*--- Start Services Section ---*/
 .services .box-container {
     display: grid;
