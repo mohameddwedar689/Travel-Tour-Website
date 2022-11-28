@@ -160,6 +160,30 @@ section {
     color: var(--white);
 } 
 /*--- End Home Section ---*/
+/*--- Start Services Section ---*/
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(16rem , 1fr));
+    gap: 1.5rem;    
+}
+.services .box-container .box {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.services .box-container .box:hover {
+    background-color: var(--black);
+}
+.services .box-container .box img {
+    height: 7rem;
+}
+.services .box-container .box h3 {
+    color: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+/*--- End Services Section ---*/
 /*--- Start Home -> About Section ---*/
 .home-about {
     display: flex;
@@ -231,31 +255,27 @@ section {
     margin-top: 2rem;
 }
 /*--- End Home -> Package Section ---*/
-/*--- Start Services Section ---*/
-.services .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(16rem , 1fr));
-    gap: 1.5rem;    
-}
-.services .box-container .box {
-    padding: 3rem 2rem;
+/*--- Start Home -> Offer Section ---*/
+.home-offer {
     text-align: center;
-    background-color: var(--main-color);
-    cursor: pointer;
 }
-.services .box-container .box:hover {
-    background-color: var(--black);
+.home-offer .content {
+    max-width: 70rem;
+    margin: 0 auto;
 }
-.services .box-container .box img {
-    height: 7rem;
+.home-offer .content h3 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--black);
 }
-.services .box-container .box h3 {
-    color: var(--white);
-    font-size: 1.7rem;
-    padding-top: 1rem;
-}
-/*--- End Services Section ---*/
+.home-offer .content p {
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
 
+}
+/*--- End Home -> Offer Section ---*/
 /*--- Start Footer Section ---*/
 .footer {
     background: url(../images/footer-bg.jpg) no-repeat;
