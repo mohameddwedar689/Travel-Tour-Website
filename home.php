@@ -112,6 +112,48 @@
         </div>
     </section>
     <!-- Home -> About Section End-->
+    <!-- Home -> Package Section Start -->
+    <section class="home-packages">
+        <h1 class="heading-title">our packages</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, numquam.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, numquam.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, numquam.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+        <div class="load-more">
+                <a href="package.php" class="btn">load more</a>
+        </div>
+    </section>
+    <!-- Home -> Package Section End -->
     <!---->
     <!-- Footer Section start -->
     <section class="footer">
