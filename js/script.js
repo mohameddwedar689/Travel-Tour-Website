@@ -37,3 +37,20 @@ var swiper = new Swiper(".reviews-slider" , {
         },
     },
 });
+
+
+let loadMoreBtn = document.querySelector('.packages .load-more .btn');
+let currentItem = 3;
+
+loadMoreBtn.onclick = () => {
+    let boxs = [...document.querySelectorAll('.packages .box-container .box')];
+    for(var i = currentItem ; i < currentItem + 3 ; i++) 
+    {
+        boxs[i].style.display = 'inline-block';
+    }
+    currentItem += 3;
+    if(currentItem >= boxs.length)
+    {
+        loadMoreBtn.style.display = 'none';
+    }
+};
