@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>About</title>
 
     <!-- swiper css link  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -32,8 +32,35 @@
     <!-- Header Section End -->
     <!-- About Section Start-->
     <div class="heading" style="background: url(images/header-bg-1.png) no-repeat">
-        <h1>about us</h1>
+        <h1>About Us</h1>
     </div>
+    <section class="about">
+        <div class="image">
+            <img src="images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, vero facilis minus porro qui quasi eligendi, incidunt ratione ipsa dolore enim! Vitae fuga voluptate laboriosam molestias minus. Ipsam, mollitia nostrum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, fuga obcaecati. Sequi impedit hic minima, veritatis eius voluptates natus vitae.</p>
+            <div class="icons-container">
+                <div class="icon">
+                    <i class="fas fa-map"></i>
+                    <span>top distnations</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>affordable price</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 guide services</span>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- About Section End-->
     <!-- Footer Section Start -->
     <section class="footer">
