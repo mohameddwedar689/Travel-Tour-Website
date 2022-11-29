@@ -342,6 +342,47 @@ section {
     display: block;
 }
 /*--- End MAin -> About Section ---*/
+/*--- Start Main -> Reviews Section ---*/
+.reviews {
+    background-color: var(--light-bg);
+}
+.reviews .slide {
+    padding: 2rem;
+    border: var(--border);
+    background-color: var(--white);
+    text-align: center;
+    text-shadow: var(--box-shadow);
+    user-select: none;
+}
+.reviews .slide .stars {
+    padding-bottom: .5rem;
+}
+.reviews .slide .stars i {
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+.reviews .slide p {
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+.reviews .slide h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
+.reviews .slide span {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    display: block;
+}
+.reviews .slide img {
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    margin-top: 1rem;
+}
+/*--- End Main -> Reviews Section ---*/
 /*--- Start Footer Section ---*/
 .footer {
     background: url(../images/footer-bg.jpg) no-repeat;

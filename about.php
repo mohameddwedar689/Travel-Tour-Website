@@ -62,6 +62,93 @@
         </div>
     </section>
     <!-- About Section End-->
+
+    <!-- Reviews Section Start -->
+    <section class="reviews">
+        <h1 class="heading-title"> client reviews</h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, modi aut nam neque dignissimos, minus ab eaque dolor, distinctio mollitia alias ex odio quas adipisci quibusdam ut qui porro nemo.</p>
+                    <h3>john deo</h3>
+                    <span>traveler</span>
+                    <img src="images/pic-1.png" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis tempore error nam dolorum iste, voluptatibus ea, ab, sit obcaecati eaque commodi? Accusantium temporibus neque eius sit error dolor, placeat nobis.</p>
+                    <h3>john deo</h3>
+                    <span>traveler</span>
+                    <img src="images/pic-2.png" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, modi aut nam neque dignissimos, minus ab eaque dolor, distinctio mollitia alias ex odio quas adipisci quibusdam ut qui porro nemo.</p>
+                    <h3>john deo</h3>
+                    <span>traveler</span>
+                    <img src="images/pic-3.png" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, modi aut nam neque dignissimos, minus ab eaque dolor, distinctio mollitia alias ex odio quas adipisci quibusdam ut qui porro nemo.</p>
+                    <h3>john deo</h3>
+                    <span>traveler</span>
+                    <img src="images/pic-4.png" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, modi aut nam neque dignissimos, minus ab eaque dolor, distinctio mollitia alias ex odio quas adipisci quibusdam ut qui porro nemo.</p>
+                    <h3>john deo</h3>
+                    <span>traveler</span>
+                    <img src="images/pic-5.png" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, modi aut nam neque dignissimos, minus ab eaque dolor, distinctio mollitia alias ex odio quas adipisci quibusdam ut qui porro nemo.</p>
+                    <h3>john deo</h3>
+                    <span>traveler</span>
+                    <img src="images/pic-6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews Section End -->
     <!-- Footer Section Start -->
     <section class="footer">
         <div class="box-container">
