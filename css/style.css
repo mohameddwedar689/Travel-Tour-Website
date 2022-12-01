@@ -435,6 +435,43 @@ section {
     margin-top: 2rem;
 }
 /*--- End Main -> Packages Section ---*/
+/*--- Start Main -> Booking Section & Form ---*/
+.booking .book-form {
+    padding: 2rem;
+    background-color: var(--light-bg);
+}
+.booking .book-form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.booking .book-form .flex .inputBox {
+    flex: 1 1 41rem;
+}
+.booking .book-form .flex .inputBox input {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+}
+.booking .book-form .flex .inputBox input:focus {
+    background-color: var(--black);
+    color: var(--white);
+}
+.booking .book-form .flex .inputBox input:focus::placeholder {
+    color: var(--white);
+}
+.booking .book-form .flex .inputBox span {
+    font-size: 1.5rem;
+    color: var(--light-black);
+}
+.booking .book-form .btn {
+    margin-top: 2rem;
+}
+/*--- End Main -> Booking Section & Form ---*/
 /*--- Start Footer Section ---*/
 .footer {
     background: url(../images/footer-bg.jpg) no-repeat;
