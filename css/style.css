@@ -521,6 +521,11 @@ section {
     }
 }
 @media (max-width: 768px) {
+
+    .heading h1 {
+        font-size: 4rem ;
+    }
+
     #menu-btn {
         display: inline-block;
         transition: .2s linear;
