@@ -1,3 +1,8 @@
+<?php
+    session_start(); 
+    if(isset($_SESSION['id']) && isset($_SESSION['email']))
+    {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -206,3 +211,11 @@
     <script type="text/javascript" src="js/script.js?v=<?php echo time();?>"></script>
 </body>
 </html>
+<?php
+    }
+    else
+    {
+        header("Location:login_form.php");
+        exit();
+    }
+?>
