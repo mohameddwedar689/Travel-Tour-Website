@@ -19,6 +19,7 @@
             if($row['email'] === $email && $row['password'] === $password)
             {
                 $_SESSION['email'] = $row['email'];
+                $_SESSION['password'] = $row['password'];
                 $_SESSION['id'] = $row["id"];
                 header('location:home.php');
             }

@@ -1,6 +1,6 @@
 <?php
     session_start(); 
-    if(isset($_SESSION['id']) && isset($_SESSION['email']))
+    if(isset($_SESSION['password']) && isset($_SESSION['email']))
     {
 ?>
 <!DOCTYPE html>
